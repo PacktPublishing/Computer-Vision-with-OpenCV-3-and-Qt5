@@ -1,0 +1,12 @@
+#ifndef COLOR_PLUGIN_GLOBAL_H
+#define COLOR_PLUGIN_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(COLOR_PLUGIN_LIBRARY)
+#  define COLOR_PLUGINSHARED_EXPORT Q_DECL_EXPORT
+#else
+#  define COLOR_PLUGINSHARED_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // COLOR_PLUGIN_GLOBAL_H

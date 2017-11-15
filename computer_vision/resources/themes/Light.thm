@@ -1,0 +1,77 @@
+*
+{
+    font: bold 12pt ;
+    background-color: #EEEEEE;
+    color: black;
+}
+
+QGroupBox, QLineEdit, QSpinBox, QDoubleSpinBox
+{
+    border: 2px solid #805E09;
+    border-radius: 4px;
+    padding: 2px;
+}
+
+QMenu::item::selected
+{
+    background-color: #DFC8C8;
+}
+
+QGraphicsView
+{
+    border: 1px solid #5D7451;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+QPushButton
+{
+    border: 3px solid rgba(255, 114, 0, 0.91);
+    border-radius: 10px;
+    padding: 2px;
+    min-height: 30px;
+    min-width: 30px;
+}
+
+QPushButton::hover
+{
+    background-color: rgba(255, 60, 0, 0.95);
+}
+
+QPushButton::pressed
+{
+    background-color: #FF0004;
+}
+
+QLabel
+{
+    min-height: 30px;
+}
+
+QGroupBox::title
+{
+    font: bold 10pt;
+}
+
+QSpinBox, QDoubleSpinBox, QRadioButton, QCheckBox, QSlider, QProgressBar
+{
+    min-width: 30px;
+    min-height: 30px;
+}
+
+QProgressBar
+{
+    border: 2px solid rgba(0, 163, 64, 0.91);
+    border-radius: 10px;
+    text-align: center;
+}
+
+QProgressBar::chunk
+{
+    background-color: #5636D3;
+    border: 1px solid rgba(0, 255, 216, 0.91);
+    border-radius: 7px;
+    width: 15px;
+    margin: 2px;
+}
+
