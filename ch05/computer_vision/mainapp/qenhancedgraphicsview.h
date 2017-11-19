@@ -20,7 +20,6 @@ public:
 
 protected:
     void wheelEvent(QWheelEvent *event);
-    void mousePressEvent(QMouseEvent *event);
 
 signals:
 
