@@ -1,0 +1,2 @@
+Create and test the projects for chapter 1 as they are mentioned in the book.
+They are meant to test your installation.
