@@ -21,12 +21,12 @@ int main(int argc, char *argv[])
 ```
 
 Although every required tool and software, the correct version, and how it is installed and configured is covered in the initial chapters of the book, the following is a list that can be used as a quick reference:
-  *A regular computer with a more recent version of Windows, macOS, or Linux (such as Ubuntu) operating system installed on it.
-  *Microsoft Visual Studio (on Windows)
-  *Xcode (on macOS)
-  *CMake
-  *Qt Framework
-  *OpenCV Framework
+  * A regular computer with a more recent version of Windows, macOS, or Linux (such as Ubuntu) operating system installed on it.
+  * Microsoft Visual Studio (on Windows)
+  * Xcode (on macOS)
+  * CMake
+  * Qt Framework
+  * OpenCV Framework
 To get an idea of what a regular computer is these days, you can search online or ask a local
 shop; however, the one you already have is most probably enough to get you started.
 
