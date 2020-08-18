@@ -129,7 +129,7 @@ void Transform_Plugin::processImage(const cv::Mat &inputImage, cv::Mat &outputIm
     }
     else if(ui->remapRadio->isChecked())
     {
-        cvtColor(inputImage, outputImage, CV_GRAY2RGBA);
+        cvtColor(inputImage, outputImage, CV_32FC(1));;
         Mat mapX, mapY;
         mapX.create(inputImage.size(), CV_32FC(1));
         mapY.create(inputImage.size(), CV_32FC(1));
